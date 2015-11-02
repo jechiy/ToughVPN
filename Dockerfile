@@ -10,6 +10,7 @@ RUN apt-get clean all
 
 COPY pptp/pptpd.conf /etc/pptpd.conf
 COPY pptp/ppp/pptpd-options /etc/ppp/pptpd-options
+COPY chap-secrets /etc/ppp/pptpd-options
 
 # setup freeradius-client
 
