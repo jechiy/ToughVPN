@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER jamiesun <jamiesun.net@gmail.com>
+MAINTAINER jamiesun <jamiesun@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update -y
